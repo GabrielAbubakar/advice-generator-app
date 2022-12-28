@@ -75,6 +75,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.section-divider>* {
+    max-width: 100%;
+    height: auto;
+}
+
 .button-container {
     position: absolute;
     bottom: -2rem;
@@ -96,4 +101,14 @@ button {
     background-color: var(--primary-green);
     /* padding: .7rem; */
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding-inline: 2rem;
+    }
+
+    .advice-card {
+        max-width: 100%;
+    }
 }
